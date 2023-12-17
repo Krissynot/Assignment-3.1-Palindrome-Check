@@ -1,11 +1,12 @@
 function String()
+    //all of this I just along with the teacher for the most part
 {
     var String1 = document.getElementById("initString").value;
     var String2 = document.getElementById("2ndString").value;
 
     document.getElementById("Str1Display").innerHTML = "You input " + String1
     document.getElementById("Str2Display").innerHTML = "You input " + String2
-    
+    // I had to make sure I didn't comment on the two above out
     var String3 = String1 + String2;
     var len = String3.length;
 
@@ -19,7 +20,7 @@ function String()
    String3 = String3.toLowerCase();
    String3 = String3.replace(/qwe/g, "asd");
    //document.getElementById("StrUpdate").innerHTML = "replace all qwe with asd 1x = " + String3;
-  
+  // had to make sure to comment out some of the document.getElementById's or else it would still be in effect
    String3 = String1.split("");
    //document.getElementById("StrUpdate").innerHTML = "SPLIT " + String3;
 
