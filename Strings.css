@@ -1,7 +1,10 @@
 body{background-color: black;
+     //the back ground is going to be black
     color: aliceblue;
+     //this is the text colors
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     //just doing something different without just doing Times New Roman
     letter-spacing: 5px;
     font-display: center;
 }
